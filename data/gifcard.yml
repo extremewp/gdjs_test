@@ -4,7 +4,7 @@ giftcard_epcode_false:
     epcode: WY22012115400000003C6asd
     type: phone
   headers:
-    token: j40union_3df3587087ebdee022fcacc0237fa90e
+    token: j40union_63616dc46093f0865b10459ad35d698c
   method: post
   url: http://192.168.50.102:886/giftcard
 giftcard_epcode_none:
@@ -13,7 +13,7 @@ giftcard_epcode_none:
     epcode: ''
     type: phone
   headers:
-    token: j40union_3df3587087ebdee022fcacc0237fa90e
+    token: j40union_63616dc46093f0865b10459ad35d698c
   method: post
   url: http://192.168.50.102:886/giftcard
 giftcard_pass:
@@ -22,7 +22,7 @@ giftcard_pass:
     epcode: WY22012115400000003C6
     type: phone
   headers:
-    token: j40union_3df3587087ebdee022fcacc0237fa90e
+    token: j40union_63616dc46093f0865b10459ad35d698c
   method: post
   url: http://192.168.50.102:886/giftcard
 giftcard_pass_repeat:
@@ -31,6 +31,6 @@ giftcard_pass_repeat:
     epcode: WY22012115400000003C6
     type: phone
   headers:
-    token: j40union_3df3587087ebdee022fcacc0237fa90e
+    token: j40union_63616dc46093f0865b10459ad35d698c
   method: post
   url: http://192.168.50.102:886/giftcard

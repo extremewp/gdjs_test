@@ -101,10 +101,6 @@ class TestGoods:
         assert res['code'] == 2
         assert res['msg'] == "A non-numeric value encountered"
 
-    def test_dasd(self):
-        bs = {"asd":"123"}
-        cs = {"bsa":"123"}
-        bs.update(cs)
-        print(bs)
+
 if __name__ == '__main__':
     pytest.main()

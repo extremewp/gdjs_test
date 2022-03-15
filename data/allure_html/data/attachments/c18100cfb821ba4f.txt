@@ -1,1 +1,0 @@
-{'msg': 'success', 'data': {'gift_card_info': {'id': '280', 'code': '86776ffc151bb1072245e3dc9f772f40'}}, 'code': 0}
