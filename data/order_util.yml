@@ -1,0 +1,8 @@
+order_cancel:
+  data:
+    id: '2677'
+    order_type: goods
+  headers:
+    token: j40union_a700c9ed25c2a184d83f22748da5c33e
+  method: post
+  url: http://192.168.50.102:886/order/cancel

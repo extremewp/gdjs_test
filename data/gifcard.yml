@@ -1,0 +1,36 @@
+giftcard_epcode_false:
+  data:
+    content: asdas
+    epcode: WY22012115400000003C6asd
+    type: phone
+  headers:
+    token: j40union_3df3587087ebdee022fcacc0237fa90e
+  method: post
+  url: http://192.168.50.102:886/giftcard
+giftcard_epcode_none:
+  data:
+    content: asdas
+    epcode: ''
+    type: phone
+  headers:
+    token: j40union_3df3587087ebdee022fcacc0237fa90e
+  method: post
+  url: http://192.168.50.102:886/giftcard
+giftcard_pass:
+  data:
+    content: asdas
+    epcode: WY22012115400000003C6
+    type: phone
+  headers:
+    token: j40union_3df3587087ebdee022fcacc0237fa90e
+  method: post
+  url: http://192.168.50.102:886/giftcard
+giftcard_pass_repeat:
+  data:
+    content: asdas
+    epcode: WY22012115400000003C6
+    type: phone
+  headers:
+    token: j40union_3df3587087ebdee022fcacc0237fa90e
+  method: post
+  url: http://192.168.50.102:886/giftcard

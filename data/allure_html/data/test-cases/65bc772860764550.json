@@ -1,0 +1,83 @@
+{
+  "uid" : "65bc772860764550",
+  "name" : "test_store_stock_pass",
+  "fullName" : "test_store.TestStore#test_store_stock_pass",
+  "historyId" : "97a79cce2f55febe2ad763edf323c1ac",
+  "time" : {
+    "start" : 1647322585274,
+    "stop" : 1647322585450,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestStore",
+    "time" : {
+      "start" : 1647322585272,
+      "stop" : 1647322585273,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestStore::0",
+    "time" : {
+      "start" : 1647322585451,
+      "stop" : 1647322585451,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_store"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStore"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LBH33VIE"
+  }, {
+    "name" : "thread",
+    "value" : "224180-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_store"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65bc772860764550.json",
+  "parameterValues" : [ ]
+}

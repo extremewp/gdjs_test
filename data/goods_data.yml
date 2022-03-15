@@ -1,0 +1,115 @@
+goods_confirm_order_v3_goodsid_none:
+  headers:
+    token: j40union_2431775ebddde191ebd70ade790d44d7
+  method: get
+  params:
+    goods_id: null
+    num: 1
+  url: http://192.168.50.102:886/goods/confirm-order-v3
+goods_confirm_order_v3_num_false:
+  headers:
+    token: j40union_bc23c1013a2dcb51247b406a4a872810
+  method: get
+  params:
+    goods_id: 48
+    num: asd1
+  url: http://192.168.50.102:886/goods/confirm-order-v3
+goods_confirm_order_v3_num_none:
+  headers:
+    token: j40union_2431775ebddde191ebd70ade790d44d7
+  method: get
+  params:
+    goods_id: 48
+    num: null
+  url: http://192.168.50.102:886/goods/confirm-order-v3
+goods_confirm_order_v3_pass:
+  headers:
+    token: j40union_bc23c1013a2dcb51247b406a4a872810
+  method: get
+  params:
+    goods_id: 48
+    num: 1
+  url: http://192.168.50.102:886/goods/confirm-order-v3
+goods_rapid_recovery_pass:
+  headers:
+    token: j40union_eaa2ed0ce422ade2f43b638d9e26d8a8
+  method: get
+  params:
+    curpage: 1
+    keyword: "\u8305\u53F0"
+    page: 5
+  url: http://192.168.50.102:886/goods/rapid-recovery
+goods_send_list:
+  headers:
+    token: j40union_ef434f84e1aba8f17d036a5dc21c384e
+  method: get
+  url: http://192.168.50.102:886/goods/switchyeargoods
+goods_send_self_deliver:
+  headers:
+    token: j40union_eaa2ed0ce422ade2f43b638d9e26d8a8
+  method: get
+  params:
+    version: 1.0.1
+  url: http://192.168.50.102:886/goods/send/self-deliver
+goods_stock_pass:
+  headers:
+    token: j40union_eaa2ed0ce422ade2f43b638d9e26d8a8
+  method: get
+  params:
+    goods_id: 49
+    limit: 10
+    page: 1
+  url: http://192.168.50.102:886/goods/stock
+goods_switchyeargoods_goodsid_false:
+  headers:
+    token: j40union_ef434f84e1aba8f17d036a5dc21c384e
+  method: get
+  params:
+    goods_id: 13212adasd
+  url: http://192.168.50.102:886/goods/switchyeargoods
+goods_switchyeargoods_goodsid_none:
+  data:
+    goods_id: ''
+  headers:
+    token: j40union_438903b963708550ff58a0410a963d58
+  method: get
+  url: http://192.168.50.102:886/goods/switchyeargoods
+goods_switchyeargoods_pass:
+  headers:
+    token: j40union_438903b963708550ff58a0410a963d58
+  method: get
+  params:
+    goods_id: 41
+  url: http://192.168.50.102:886/goods/switchyeargoods
+order_get_express_fee_goodsid_none:
+  headers:
+    token: j40union_c36a0f668cc929c7d664a88ea8d982af
+  method: get
+  params:
+    goods_id: null
+    num: 4
+  url: http://192.168.50.102:886/order/get-express-fee
+order_get_express_fee_num_false:
+  headers:
+    token: j40union_ee07247692fdf4f9c82d22fb6df7c771
+  method: get
+  params:
+    goods_id: 48
+    num: asd
+  url: http://192.168.50.102:886/order/get-express-fee
+order_get_express_fee_num_none:
+  headers:
+    token: j40union_ee07247692fdf4f9c82d22fb6df7c771
+  method: get
+  params:
+    goods_id: 48
+    num: null
+  url: http://192.168.50.102:886/order/get-express-fee
+order_get_express_fee_pass:
+  headers:
+    token: j40union_c36a0f668cc929c7d664a88ea8d982af
+  method: get
+  params:
+    goods_id: 48
+    num: 4
+  url: http://192.168.50.102:886/goods/switchyeargoods

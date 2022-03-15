@@ -1,0 +1,161 @@
+identify_cats_limit_false:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    limit: a123
+    page: 1
+  url: http://192.168.50.102:886/identify/cats
+identify_cats_limit_none:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    limit: ''
+    page: 1
+  url: http://192.168.50.102:886/identify/cats
+identify_cats_page_none:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    limit: 10
+    page: ''
+  url: http://192.168.50.102:886/identify/cats
+identify_cats_pass:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    limit: 10
+    page: 1
+  url: http://192.168.50.102:886/identify/cats
+identify_center_detail_orderid_false:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    order_id: asdasfsd132
+  url: http://192.168.50.102:886/identify/center/detail
+identify_center_detail_orderid_none:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    order_id: null
+  url: http://192.168.50.102:886/identify/center/detail
+identify_center_detail_pass:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    order_id: 126
+  url: http://192.168.50.102:886/identify/center/detail
+identify_center_list_pass:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    order_id: 126
+  url: http://192.168.50.102:886/identify/center/list
+identify_center_page_false:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    page: asdasd123
+    per_page: '6'
+    status: waiting_evaluate
+  url: http://192.168.50.102:886/identify/center
+identify_center_page_none:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    page: ''
+    per_page: '6'
+    status: waiting_evaluate
+  url: http://192.168.50.102:886/identify/center
+identify_center_pass:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    page: 1
+    per_page: '6'
+    status: waiting_evaluate
+  url: http://192.168.50.102:886/identify/center
+identify_center_status_false:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    page: 1
+    per_page: '6'
+    status: asdasdq
+  url: http://192.168.50.102:886/identify/center
+identify_center_status_none:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    page: 1
+    per_page: '6'
+    status: null
+  url: http://192.168.50.102:886/identify/center
+identify_records_orderid_false:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    order_id: dasd123
+  url: http://192.168.50.102:886/identify/records
+identify_records_orderid_none:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    order_id: null
+  url: http://192.168.50.102:886/identify/records
+identify_records_pass:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    order_id: 126
+  url: http://192.168.50.102:886/identify/records
+identify_report_detail_identifyid_false:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    identify_id: asd801asd
+  url: http://192.168.50.102:886/identify/report-detail
+identify_report_detail_identifyid_none:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    identify_id: null
+  url: http://192.168.50.102:886/identify/report-detail
+identify_report_detail_pass:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    identify_id: '801'
+  url: http://192.168.50.102:886/identify/report-detail
+identify_report_orderid_none:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    order_id: null
+  url: http://192.168.50.102:886/identify/report
+identify_report_pass:
+  headers:
+    token: j40union_91bc5e3037193bef80a407d8b570fbdb
+  method: get
+  params:
+    order_id: 126
+  url: http://192.168.50.102:886/identify/report

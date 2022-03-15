@@ -1,0 +1,173 @@
+createorder_maxmun_false:
+  data:
+    buy_type: 2
+    goods_id: 48
+    mail_type: 1
+    num: 1111
+    type: 3
+    unit_price: 19900
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: post
+  url: http://192.168.50.102:886/order
+createorder_pass:
+  data:
+    buy_type: 2
+    goods_id: 48
+    mail_type: 1
+    num: 1
+    type: 3
+    unit_price: 19900
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: post
+  url: http://192.168.50.102:886/order
+ipaynow_index_pass:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    version: 1.0.1
+  url: http://192.168.50.102:886/ipaynow/index
+order_all_pass:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    limit: 10
+    page: 1
+    status: all
+  url: http://192.168.50.102:886/order
+order_cancel:
+  data:
+    order_type: goods
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: post
+  url: http://192.168.50.102:886/order/cancel
+order_detail_id_false:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    id: asd
+  url: http://192.168.50.102:886/order/detail
+order_detail_id_none:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    id: null
+  url: http://192.168.50.102:886/order/detail
+order_detail_pass:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    id: 207
+  url: http://192.168.50.102:886/order/detail
+order_fail_pass:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    limit: 10
+    page: 1
+    status: fail
+  url: http://192.168.50.102:886/order
+order_get_order_info_id_false:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    goods_id: asd
+  url: http://192.168.50.102:886/order/get-order-info
+order_get_order_info_id_none:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    goods_id: null
+  url: http://192.168.50.102:886/order/get-order-info
+order_get_order_info_pass:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    goods_id: 48
+  url: http://192.168.50.102:886/order/get-order-info
+order_is_can_stock_goodsid_false:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    goods_id: asda
+  url: http://192.168.50.102:886/order/is-can-stock
+order_is_can_stock_goodsid_none:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    goods_id: null
+  url: http://192.168.50.102:886/order/is-can-stock
+order_is_can_stock_pass:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    goods_id: 48
+  url: http://192.168.50.102:886/order/is-can-stock
+order_ok_pass:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    limit: 10
+    page: 1
+    status: ok
+  url: http://192.168.50.102:886/order
+order_status_false:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    limit: 10
+    page: 1
+    status: asdasd
+  url: http://192.168.50.102:886/order
+order_status_none:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    limit: 10
+    page: 1
+    status: null
+  url: http://192.168.50.102:886/order
+order_wait_pay_pass:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    limit: 10
+    page: 1
+    status: wait_pay
+  url: http://192.168.50.102:886/order
+order_wait_received_pass:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    limit: 10
+    page: 1
+    status: wait_received
+  url: http://192.168.50.102:886/order
+order_wait_send_pass:
+  headers:
+    token: j40union_91a07f218353f53ccfb91b20ed6d0929
+  method: get
+  params:
+    limit: 10
+    page: 1
+    status: wait_send
+  url: http://192.168.50.102:886/order

@@ -1,0 +1,94 @@
+store2020_pass:
+  headers:
+    token: j40union_f677d5cff7309c3c21c7ae67fbfb7f12
+  method: get
+  params:
+    cat_id: 1
+    limit: 10
+    page: 1
+  url: http://192.168.50.102:886/store2020
+store_bn_pass:
+  headers:
+    token: j40union_c2d6606c0b19e4a9aca4f075786c301e
+  method: get
+  params:
+    bn: BJ000041asdas
+  url: http://192.168.50.102:886/store/bn
+store_goods_detail_bn_false:
+  headers:
+    token: j40union_99aff7be50017537b69abcff804f743c
+  method: get
+  params:
+    bn: BJ000041asdas
+    type: '1'
+  url: http://192.168.50.102:886/store/goods/detail
+store_goods_detail_bn_none:
+  headers:
+    token: j40union_d243384406d9c630ee4a3cf707a12ee7
+  method: get
+  params:
+    bn: null
+    type: 1
+  url: http://192.168.50.102:886/store/goods/detail
+store_goods_detail_pass:
+  headers:
+    token: j40union_140f6d8c51c2cdd7b636e8a854da5e91
+  method: get
+  params:
+    bn: BJ000041
+    type: 1
+  url: http://192.168.50.102:886/store/goods/detail
+store_goods_detail_type_false:
+  headers:
+    token: j40union_99aff7be50017537b69abcff804f743c
+  method: get
+  params:
+    bn: BJ000041
+    type: asd
+  url: http://192.168.50.102:886/store/goods/detail
+store_goods_detail_type_none:
+  headers:
+    token: j40union_d243384406d9c630ee4a3cf707a12ee7
+  method: get
+  params:
+    bn: BJ000041
+    type: ''
+  url: http://192.168.50.102:886/store/goods/detail
+store_goods_info_epcode_none:
+  headers:
+    token: j40union_f677d5cff7309c3c21c7ae67fbfb7f12
+  method: get
+  params:
+    epcode: null
+  url: http://192.168.50.102:886/store/goods_info
+store_goods_info_pass:
+  headers:
+    token: j40union_a032e1148cd8bd0c66309debef000099
+  method: get
+  params:
+    epcode: WY22012115400000003C5
+  url: http://192.168.50.102:886/store/goods_info
+store_goods_pass:
+  headers:
+    token: j40union_a032e1148cd8bd0c66309debef000099
+  method: get
+  params:
+    bn: BJ000041
+    limit: 10
+    start: 0
+    type: 0
+  url: http://192.168.50.102:886/store/goods
+store_sku_detail_pass:
+  headers:
+    token: j40union_f45ee2fadb7fd64ee244eddd1aa9e64a
+  method: get
+  params:
+    sku: BJ000004
+  url: http://192.168.50.102:886/store/sku/detail
+store_stock_pass:
+  headers:
+    token: j40union_c2d6606c0b19e4a9aca4f075786c301e
+  method: get
+  params:
+    cat_id: 1
+  url: http://192.168.50.102:886/store/stock

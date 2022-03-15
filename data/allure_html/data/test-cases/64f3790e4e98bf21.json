@@ -1,0 +1,83 @@
+{
+  "uid" : "64f3790e4e98bf21",
+  "name" : "test_giftcard_pass_repeat",
+  "fullName" : "test_gifcard.TestGifcard#test_giftcard_pass_repeat",
+  "historyId" : "8fb4794c8e85616c40508eae57064aca",
+  "time" : {
+    "start" : 1647322564128,
+    "stop" : 1647322564320,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestGifcard",
+    "time" : {
+      "start" : 1647322564127,
+      "stop" : 1647322564127,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestGifcard::0",
+    "time" : {
+      "start" : 1647322564322,
+      "stop" : 1647322564322,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_gifcard"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGifcard"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LBH33VIE"
+  }, {
+    "name" : "thread",
+    "value" : "224180-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_gifcard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64f3790e4e98bf21.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,272 @@
+login_file:
+  data:
+    phone: 19520409998
+    type: phone
+    verify: 123124124311
+  method: post
+  url: http://192.168.50.102:886/session
+login_none:
+  data:
+    phone: null
+    type: phone
+    verify: null
+  method: post
+  url: http://192.168.50.102:886/session
+login_pass:
+  data:
+    phone: 19520409998
+    type: phone
+    verify: 111000
+  method: post
+  url: http://192.168.50.102:886/session
+order_detail_filter_page_file:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    limit: 10
+    page: 1
+    type: asd
+  url: http://192.168.50.102:886/order/detail/filter
+order_detail_filter_page_none:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    limit: 10
+    page: 1
+    type: null
+  url: http://192.168.50.102:886/order/detail/filter
+order_detail_filter_pass:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    limit: 10
+    page: 1
+    type: payment
+  url: http://192.168.50.102:886/order/detail/filter
+order_take_detail_filter_page_false:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    limit: 10
+    page: 1aasd
+  url: http://192.168.50.102:886/order/take/detail/filter
+order_take_detail_filter_page_none:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    limit: 10
+    page: null
+  url: http://192.168.50.102:886/order/take/detail/filter
+order_take_detail_filter_pass:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    limit: 10
+    page: 1
+  url: http://192.168.50.102:886/order/take/detail/filter
+shell:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    limit: 10
+    page: 1
+  url: http://192.168.50.102:886/user/sell
+upload_avatar_auth:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    ex: https://www.baidu.com/link?url=M1k15lO4STfQcswSbqmDx58aF1RyD7p8mxbmPPsHpKM14L8L31mPuiGW9RFYqFnQ71H0JfSyCTYyHFx0hDpOvqJ3Ycr-Yrrik1qtzqRXxGBEek_b_Zmtri4uzPoz5OgbzdKop-3VD96Z-GxB4om7re4qdKwchZsDSXlAR8aLQym3qSWzzDAiRRcRTHb0WU8S9DiK8eZLBk76ODgVEA-xG95RFRW3JkGj7EwXJqF3Lw9Zs94Hd-eoN9shOptEUeLQaYGE614MwOMK3zd01_hSUc40PDiLg3-XqbW7bXMxVkzhOHng7dyyqYvFiH6joPVsSjlwikatvl82458eepGn0bcg-y1KvGTbLlKbkWbAy5bk8rh63KEMqKNOCMFDmGVeCks83GoVVQ9tH782mAK6YoaAcEEO2CQsy65c6h2VWecVrk-YteFYVJEm5aLLbVRNar1x-pYD2zaxAgC9ksgatrMrXBYBe5InF8skDzk64JwYrjO9YenI6942UgXPDf8-YyPXRWMCaV5fUOXYsirAbYNqhM0pcvmxR0oRY1ZarFk1R6c2t4UbArJm9XX8tijjV9PkUvc1-mNvSXxAQS8vwFy6w7PEYgtEEVXiAxgxi6c2A8IbIfzLwjzW8EDpbRmiwHQSOHwE4ecHkeBrvG17sK&wd=&eqid=f1f04be9000acec40000000262271bb7
+    num: 1
+  url: http://192.168.50.102:886/user/upload-avatar-auth
+user:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    version: 1.0.1
+  url: http://192.168.50.102:886/user
+user_address:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  url: http://192.168.50.102:886/user/address
+user_address_delect_file:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: delete
+  params:
+    id: 1000000
+  url: http://192.168.50.102:886/user/address
+user_address_delect_pass:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: delete
+  params:
+    id: '134'
+  url: http://192.168.50.102:886/user/address
+user_address_detail_id_file:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    address_id: "\u5F20\u4E09"
+  url: http://192.168.50.102:886/user/address/detail
+user_address_detail_id_none:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    address_id: null
+  url: http://192.168.50.102:886/user/address/detail
+user_address_detail_pass:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    address_id: '77'
+  url: http://192.168.50.102:886/user/address/detail
+user_address_mobile_none:
+  data:
+    city: 12
+    city_id: 12
+    detail: 12
+    district: 12
+    district_id: 12
+    is_default: 0
+    mobile: null
+    name: "\u5F20\u4E09"
+    province: 12
+    province_id: 19
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: post
+  url: http://192.168.50.102:886/user/address
+user_address_name_none:
+  data:
+    city: 12
+    city_id: 12
+    detail: 12
+    district: 12
+    district_id: 12
+    is_default: 0
+    mobile: 19520409998
+    name: null
+    province: 12
+    province_id: 19
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: post
+  url: http://192.168.50.102:886/user/address
+user_address_pass:
+  data:
+    city: 12
+    city_id: 12
+    detail: 12
+    district: 12
+    district_id: 12
+    is_default: 0
+    mobile: 19520409998
+    name: "\u5F20\u4E09"
+    province: 12
+    province_id: 19
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: post
+  url: http://192.168.50.102:886/user/address
+user_address_update_name_none:
+  data:
+    city: 12
+    city_id: 12
+    detail: 12
+    district: 12
+    district_id: 12
+    id: '80'
+    is_default: 0
+    mobile: 1952040998
+    name: null
+    province: 12
+    province_id: 19
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: put
+  url: http://192.168.50.102:886/user/address
+user_address_update_pass:
+  data:
+    city: 12
+    city_id: 12
+    detail: 12
+    district: 12
+    district_id: 12
+    id: '80'
+    is_default: 0
+    mobile: 1952040998
+    name: "\u5F20\u4E09"
+    province: 12
+    province_id: 19
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: put
+  url: http://192.168.50.102:886/user/address
+user_coupon_page_false:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    limit: 10
+    page: 3asd
+  url: http://192.168.50.102:886/user/coupon?
+user_coupon_pass:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    limit: 10
+    page: 50
+  url: http://192.168.50.102:886/user/coupon?
+user_dashboard:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  params:
+    version: 1.0.1
+  url: http://192.168.50.102:886/user
+user_default_address:
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: get
+  url: http://192.168.50.102:886/user/default-address
+user_update:
+  data:
+    type: name
+    value: wss
+    werify: 111000
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: put
+  url: http://192.168.50.102:886/user/update
+user_update_type_none:
+  data:
+    type: null
+    value: wss
+    werify: 111000
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: put
+  url: http://192.168.50.102:886/user/update
+user_update_value_none:
+  data:
+    type: name
+    value: null
+    werify: 111000
+  headers:
+    token: j40union_303ae281736c641ccb012c98f52bc7c7
+  method: put
+  url: http://192.168.50.102:886/user/update
