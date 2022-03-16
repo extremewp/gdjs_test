@@ -4,7 +4,7 @@ giftcard_epcode_false:
     epcode: WY22012115400000003C6asd
     type: phone
   headers:
-    token: j40union_63616dc46093f0865b10459ad35d698c
+    token: j40union_8aaa91d017ae46f6cfb24cf948410da9
   method: post
   url: http://192.168.50.102:886/giftcard
 giftcard_epcode_none:
@@ -13,16 +13,25 @@ giftcard_epcode_none:
     epcode: ''
     type: phone
   headers:
-    token: j40union_63616dc46093f0865b10459ad35d698c
+    token: j40union_8aaa91d017ae46f6cfb24cf948410da9
   method: post
   url: http://192.168.50.102:886/giftcard
+giftcard_list_pass:
+  headers:
+    token: j40union_8aaa91d017ae46f6cfb24cf948410da9
+  method: get
+  params:
+    bn: BJ000041
+    page: 1
+    per_page: 10
+  url: http://192.168.50.102:886/giftcard/list
 giftcard_pass:
   data:
     content: asdas
     epcode: WY22012115400000003C6
     type: phone
   headers:
-    token: j40union_63616dc46093f0865b10459ad35d698c
+    token: j40union_8aaa91d017ae46f6cfb24cf948410da9
   method: post
   url: http://192.168.50.102:886/giftcard
 giftcard_pass_repeat:
@@ -31,6 +40,6 @@ giftcard_pass_repeat:
     epcode: WY22012115400000003C6
     type: phone
   headers:
-    token: j40union_63616dc46093f0865b10459ad35d698c
+    token: j40union_8aaa91d017ae46f6cfb24cf948410da9
   method: post
   url: http://192.168.50.102:886/giftcard

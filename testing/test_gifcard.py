@@ -26,13 +26,22 @@ class TestGifcard:
         assert res['code'] == 4000
         assert res['msg'] == '没有查询到对应存酒'
 
-        # 创建礼品卡epcode空
-
+    # 创建礼品卡epcode空
     def test_giftcard_epcode_none(self):
         res = self.gdb.giftcard_epcode_none()
         assert res['code'] == 302
         assert res['msg'] == '参数错误'
 
+    # 礼品卡列表（云仓）
+    def test_giftcard_list_pass(self):
+        res = self.gdb.giftcard_list_pass()
+        assert res['code'] == 0
+        assert res['msg'] == 'success'
+
+    def test_giftcard_delete(self):
+        res = self.gdb.giftcard_delete()
+        assert res['code'] == 0
+        assert res['msg'] == 'success'
 
 if __name__ == '__main__':
     pytest.main()

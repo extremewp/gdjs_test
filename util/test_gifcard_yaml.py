@@ -56,7 +56,18 @@ class TestGifcard:
                     "type": "phone",
                 },
                 "headers": {"token": self.token}
-            }
+            },
+            "giftcard_list_pass":{
+                "method": "get",
+                "url": "http://192.168.50.102:886/giftcard/list",
+                "params": {
+                    "bn": "BJ000041",
+                    "page": 1,
+                    "per_page": 10,
+                },
+                "headers": {"token": self.token}
+            },
+
         }
 
 
