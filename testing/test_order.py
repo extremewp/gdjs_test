@@ -6,7 +6,8 @@ from util.order_data_base import OrderDataBase
 class TestOrder:
     def setup(self):
         self.odb = OrderDataBase()
- # 订单详细pass
+
+    # 订单详细pass
     def test_order_detail_pass(self):
         res = self.odb.order_detail_pass()
         assert res['code'] == 0
@@ -130,6 +131,7 @@ class TestOrder:
         res = self.odb.order_cancel()
         assert res['code'] == 0
         assert res['msg'] == 'success'
+
 
 
 if __name__ == '__main__':

@@ -1,10 +1,18 @@
+giftcard_delete_giftcard_none:
+  headers:
+    token: j40union_c7d89a31ff4e78b072a78d9c885be627
+  method: delete
+  params:
+    giftcard_id: ''
+    sku_id: '1'
+  url: http://192.168.50.102:886/giftcard
 giftcard_epcode_false:
   data:
     content: asdas
     epcode: WY22012115400000003C6asd
     type: phone
   headers:
-    token: j40union_8aaa91d017ae46f6cfb24cf948410da9
+    token: j40union_c7d89a31ff4e78b072a78d9c885be627
   method: post
   url: http://192.168.50.102:886/giftcard
 giftcard_epcode_none:
@@ -13,12 +21,12 @@ giftcard_epcode_none:
     epcode: ''
     type: phone
   headers:
-    token: j40union_8aaa91d017ae46f6cfb24cf948410da9
+    token: j40union_c7d89a31ff4e78b072a78d9c885be627
   method: post
   url: http://192.168.50.102:886/giftcard
 giftcard_list_pass:
   headers:
-    token: j40union_8aaa91d017ae46f6cfb24cf948410da9
+    token: j40union_c7d89a31ff4e78b072a78d9c885be627
   method: get
   params:
     bn: BJ000041
@@ -31,7 +39,7 @@ giftcard_pass:
     epcode: WY22012115400000003C6
     type: phone
   headers:
-    token: j40union_8aaa91d017ae46f6cfb24cf948410da9
+    token: j40union_c7d89a31ff4e78b072a78d9c885be627
   method: post
   url: http://192.168.50.102:886/giftcard
 giftcard_pass_repeat:
@@ -40,6 +48,27 @@ giftcard_pass_repeat:
     epcode: WY22012115400000003C6
     type: phone
   headers:
-    token: j40union_8aaa91d017ae46f6cfb24cf948410da9
+    token: j40union_c7d89a31ff4e78b072a78d9c885be627
   method: post
   url: http://192.168.50.102:886/giftcard
+share_giftcard_giftcardid_false:
+  headers:
+    token: j40union_c7d89a31ff4e78b072a78d9c885be627
+  method: get
+  params:
+    giftcard_id: asd1
+  url: http://192.168.50.102:886/share/giftcard
+share_giftcard_giftcardid_none:
+  headers:
+    token: j40union_c7d89a31ff4e78b072a78d9c885be627
+  method: get
+  params:
+    giftcard_id: ''
+  url: http://192.168.50.102:886/share/giftcard
+share_giftcard_pass:
+  headers:
+    token: j40union_c7d89a31ff4e78b072a78d9c885be627
+  method: get
+  params:
+    giftcard_id: '282'
+  url: http://192.168.50.102:886/share/giftcard

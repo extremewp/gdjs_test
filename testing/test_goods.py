@@ -1,3 +1,5 @@
+from re import split
+
 import pytest
 import requests
 import yaml
@@ -32,13 +34,12 @@ class TestGoods:
         assert res['code'] == 0
         assert res['msg'] == 'success'
 
-        # 切换商品年份goodsid空
+    # 切换商品年份goodsid空
     def test_goods_switchyeargoods_goodsid_none(self):
         res = self.gdb.goods_switchyeargoods_goodsid_none()
         res['code'] == 0
         assert res['msg'] == 'success'
         assert res['data']['stock'] == None
-
 
     # 切换商品年份goodsid错误
     def test_goods_switchyeargoods_goodsid_false(self):
@@ -101,6 +102,22 @@ class TestGoods:
         assert res['code'] == 2
         assert res['msg'] == "A non-numeric value encountered"
 
+    def test_adas(self):
+        # l = [9, 10, 11, 12, 13, 1, 2, 3, 4, 5, 6, 7, 8]
+        # n = len(l)
+        # for j in range(0, n - 1):
+        #     for i in range(0, n - 1 - j):
+        #         if l[i] > l[i + 1]:
+        #             l[i], l[i + 1] = l[i + 1], l[i]
+        # print(l)
+        for i in range(1,10) :
+            for j in range(1,i+1):
+                print("/i,*,/j,=,/i*/j",end=" ")
+                print()
+            print("")
+        # a = 123
+        # b = "123"
+        # print( a == b)
 
 if __name__ == '__main__':
     pytest.main()

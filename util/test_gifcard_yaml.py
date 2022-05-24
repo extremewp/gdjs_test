@@ -1,9 +1,7 @@
 
-import random
 
 import yaml
 
-from testing.test_store import TestStore
 from util.store_data_base import StoreDataBase
 from util.user_data_base import UserDataBase
 
@@ -15,6 +13,8 @@ class TestGifcard:
         self.sdb = StoreDataBase()
         self.jkwym = self.sdb.store_goods_pass()['data'][2]['epcode']
         print(self.sdb.store_goods_pass())
+
+
     def test_yaml(self):
         data = {
             "giftcard_pass": {
@@ -67,7 +67,39 @@ class TestGifcard:
                 },
                 "headers": {"token": self.token}
             },
-
+            "giftcard_delete_giftcard_none":{
+                "method": "delete",
+                "url": "http://192.168.50.102:886/giftcard",
+                "params": {
+                    "giftcard_id": "",
+                    "sku_id": "1",
+                },
+                "headers": {"token": self.token}
+            },
+            "share_giftcard_pass":{
+                "method": "get",
+                "url": "http://192.168.50.102:886/share/giftcard",
+                "params": {
+                    "giftcard_id": "282",
+                },
+                "headers": {"token": self.token}
+            },
+            "share_giftcard_giftcardid_none": {
+                "method": "get",
+                "url": "http://192.168.50.102:886/share/giftcard",
+                "params": {
+                    "giftcard_id": "",
+                },
+                "headers": {"token": self.token}
+            },
+            "share_giftcard_giftcardid_false": {
+                "method": "get",
+                "url": "http://192.168.50.102:886/share/giftcard",
+                "params": {
+                    "giftcard_id": "asd1",
+                },
+                "headers": {"token": self.token}
+            }
         }
 
 
